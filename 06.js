@@ -5,10 +5,10 @@ function f() {
 	sortArr = arr.sort();
 	for (let i = 0; i < arr.length; i++) {
 		if (arr[i] === arr[i + 1]) {
-			result = "Yes";
+			result = true;
 			return result;
 		} else {
-			result = "No";
+			result = false;
 			return result;
 		}
 	}
